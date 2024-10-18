@@ -34,8 +34,8 @@ export default defineUserConfig({
     {
       mountPath: "/",
       analysis: githubReposAnalysis({
-        user: "Aikoyori",
-        repository: "ProgrammingVTuberLogos",
+        user: "linyuxuanlin", //Aikoyori
+        repository: "File-host", //ProgrammingVTuberLogos
       }),
       downProxy: cloudflarePagesDownProxy()
     },
