@@ -35,7 +35,7 @@ export default defineUserConfig({
       mountPath: "/",
       analysis: githubReposAnalysis({
         user: "linyuxuanlin",
-        repository: "File_Host",
+        repository: "File_host",
       }),
       downProxy: cloudflarePagesDownProxy()
     },
